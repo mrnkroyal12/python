@@ -1,0 +1,15 @@
+x=eval(input("enter the number"))
+y=eval(input("enter the number"))
+print("addition",x+y)
+print("sub",x-y)
+print("mult",x*y)
+print("divi",x/y)
+
+
+output:-
+enter the number5
+enter the number4
+addition 9
+sub 1
+mult 20
+divi 1.25
