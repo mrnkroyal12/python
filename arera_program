@@ -1,0 +1,16 @@
+l=eval(input("enter the len"))
+b=eval(input("enter the breadth"))
+print("\farea of rect",l*b)
+r=eval(input("enter the raadius"))
+print("area of circle",3.14*r*r)
+a=eval(input("enter the side"))
+print("area of sqaure",a*a)
+
+output:-
+enter the len4
+enter the breadth4
+area of rect 16
+enter the raadius4
+area of circle 50.24
+enter the side4
+area of sqaure 16
