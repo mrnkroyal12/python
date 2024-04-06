@@ -1,0 +1,9 @@
+def string():
+    n = 'python is'
+    return n
+
+x = 'awesome'
+print(string() + " "+ x)
+
+    
+ 
