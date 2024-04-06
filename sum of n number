@@ -8,3 +8,15 @@ print(sum)
 
 output:-
 6
+
+
+using function:-
+def sum_number(n):
+    sum = 0
+    for i in range(1, n+1):
+        sum += i
+    return sum
+
+n = 100
+result = sum_number(n)
+print("Sum of numbers from 1 to", n, ":", result)
