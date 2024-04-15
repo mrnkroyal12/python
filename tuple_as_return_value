@@ -1,0 +1,15 @@
+def div(a,b):
+ r=a%b
+ q=a//b
+ return(r,q)
+a=eval(input("enter a value:"))
+b=eval(input("enter b value:"))
+r,q=div(a,b)
+print("reminder:",r)
+print("quotient:",q)
+
+output:-
+enter a value:4
+enter b value:3
+reminder: 1
+quotient: 1
