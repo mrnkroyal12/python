@@ -1,0 +1,12 @@
+def min_max(a):
+ small=min(a)
+ big=max(a)
+ return(small,big)
+a=[1,2,3,4,6]
+small,big=min_max(a)
+print("smallest:",small)
+print("biggest:",big)
+
+output:-
+smallest : 1
+biggest : 6
